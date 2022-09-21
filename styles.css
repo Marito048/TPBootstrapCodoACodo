@@ -1,0 +1,25 @@
+.barra{
+    background-color: rgba(27.7, 37.5, 46.8, 1); 
+    text-align: end;
+    
+}
+.nav-link li{
+    color: white !important;
+}
+.btn{
+    border:none;
+    outline:0 !important;
+    background:none !important;
+    
+}
+.nav-link{
+    color: violet;
+}
+.card-deck{
+    display:flex;
+    justify-content: center;
+    margin: 10px 30px 30px 30px;
+    
+    
+    
+}
