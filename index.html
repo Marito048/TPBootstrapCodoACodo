@@ -14,8 +14,11 @@
 <body>
     <headers>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div>
+          <a src="./img/codoacodo.png"></a>
+        </div>
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Codo a Codo</a>
+          
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -23,31 +26,71 @@
             <ul class="navbar-nav">
               
               <li class="nav-item">
-                <a class="nav-link active" href="#">Inicio</a>
+                <a class="nav-link active" href="#">La conferencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link active" href="#">Los oradores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#">Desactivado</a>
+                <a class="nav-link active" href="#">El lugar y la fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Conviertete en orador</a>
               </li>
             </ul>
             <form class="d-flex">
               
-              <button class=" btn btn-outline-success" type="submit">Comprar tickets</button>
+              <button class=" botonNav btn btn-outline-success" type="submit">Comprar tickets</button>
             </form>
           </div>
         </div>
       </nav>
       <!-- Fin menu nav -->
-
+      <div>
+        <img src="./img/ba1.jpg" class="img-fluid" alt="...">
+      </div>  
     </headers>
     <div class=" oradores text-center">
       <h5>Conoce a los oradores</h5>
       <h2>ORADORES</h2>
     </div>
-    <div class="card-deck " >
-      <div class="card">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 w-75">
+          <img src="./img/steve.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a id="javascript">JavaScript</a> <a id="react">React</a>
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 w-75">
+          <img src="./img/bill.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a id="javascript">JavaScript</a> <a id="react">React</a>
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 w-75">
+          <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a id="negocios">Negocios</a> <a id="startups">Startups</a>
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- <div class="card-deck  " >
+      <div class="card card-img-top h-100">
         <img src="./img/steve.jpg" class="card-img-top" alt="..." style="max-width:300px">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -55,7 +98,7 @@
           <p class="card-text"><small class="text-muted">Last</small></p>
         </div>
       </div>
-      <div class="card" >
+      <div class="card card-img-top h-100" >
         <img src="./img/bill.jpg" class="card-img-top" alt="..." style="max-width:300px" >
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -63,7 +106,7 @@
           <p class="card-text"><small class="text-muted">Last</small></p>
         </div>
       </div>
-      <div class="card">
+      <div class="card card-img-top h-100">
         <img src="./img/ada.jpeg" class="card-img-top" alt="..." style="max-width:300px">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -71,20 +114,21 @@
           <p class="card-text"><small class="text-muted">Last</small></p>
         </div>
       </div>
-    </div>
+    </div> -->
 
     
-    <div class="card mb-3">
-      <div class="row g-0">
-        <div class="col-md-4">
+    <div class="honolulu card mb-3">
+      <div class="row g-0 ">
+        <div class=" col-md-6 ">
           <img src="./img/honolulu.jpg" class="img-fluid rounded-start" alt="..." >
         </div>
-        <div class="col-md-4">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="bsastext col-md-6">
+          <div class="  card-body ">
+            <h5 class="card-title">Bs As-Octubre</h5>
+            <p class="card-text">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 600 Kmcuadrados de superficie).
+               .</p>
 
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <button type="button" class="   btn btn-outline-light">Conoce más</button>
           </div>
         </div>
       </div>

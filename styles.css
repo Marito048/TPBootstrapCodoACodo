@@ -3,23 +3,56 @@
     text-align: end;
     
 }
-.nav-link li{
-    color: white !important;
-}
-.btn{
+
+.botonNav{
     border:none;
     outline:0 !important;
     background:none !important;
     
 }
-.nav-link{
-    color: violet;
-}
+
 .card-deck{
     display:flex;
     justify-content: center;
     margin: 10px 30px 30px 30px;
+          
+}
+#javascript{
+    margin: 0px;
+    padding: 3px;;
+    background-color: rgb(248, 233, 16);
+    border-radius: 10%;
     
+}
+
+#react{
+    margin: 0px;
+    padding: 3px;;
+    background-color: rgb(70, 132, 224);
+    border-radius: 10%;
+    color:white
     
+}
+#negocios{
+    margin: 0px;
+    padding: 3px;;
+    background-color: rgb(70, 66, 66);
+    border-radius: 10%;
+    color:white;
     
+}
+#startups{
+    margin: 0px;
+    padding: 3px;;
+    background-color: rgb(238, 70, 70);
+    border-radius: 10%;
+    color:white;
+
+}
+.honolulu{
+    background-color: rgb(71, 72, 73);
+    margin:25px 0px 0px 0px;
+}
+.bsastext {
+    color:white;
 }
