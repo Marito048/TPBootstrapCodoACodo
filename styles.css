@@ -1,6 +1,14 @@
+.btnComprar{
+    
+    border:none;
+    background: none;
+    
+    
+ 
+}
 .navbar{
     width: 100%;
-    height: 70px;;
+    height: 70px;
 }
 
 .text-logo{
@@ -9,9 +17,7 @@
     color: white;
     
 }
-.comprar {
-    color:rgb(29, 202, 29)
-}
+
 
 .bsastext {
     color:white;
