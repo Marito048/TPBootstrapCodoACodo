@@ -13,39 +13,6 @@
     color:rgb(29, 202, 29)
 }
 
-#javascript{
-    margin: 0px;
-    padding: 3px;;
-    background-color: rgb(248, 233, 16);
-    border-radius: 10%;
-    
-}
-
-#react{
-    margin: 0px;
-    padding: 3px;;
-    background-color: rgb(70, 132, 224);
-    border-radius: 10%;
-    color:white
-    
-}
-#negocios{
-    margin: 0px;
-    padding: 3px;;
-    background-color: rgb(70, 66, 66);
-    border-radius: 10%;
-    color:white;
-    
-}
-#startups{
-    margin: 0px;
-    padding: 3px;;
-    background-color: rgb(238, 70, 70);
-    border-radius: 10%;
-    color:white;
-
-}
- 
 .bsastext {
     color:white;
 } 
