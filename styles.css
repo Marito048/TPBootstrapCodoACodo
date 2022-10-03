@@ -16,7 +16,16 @@
     color: white;
     
 }
+.textoBsAs{
+    color: white;
+    border:  white   2px solid;
+    width: 50%;
+    height: 50%;
+    z-index: 0;
+    text-align: end;
 
+    margin: -30% 0% 0% 40%;
+}
 
 .bsastext {
     color:white;
@@ -36,4 +45,11 @@
 }
 .footer{
     background-color: rgb(74, 74, 238);
+}
+ 
+.oradores{
+    margin: 20% 0% 0% 0%;
+}
+.serOrador{
+    
 }
